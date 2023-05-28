@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "COMIC SANS MS";
+    src: url("./comic.ttf");
+  }
+
+*{margin: 0; padding: 0;}
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #A0522D;
+}
+.stranici {
+    margin: 10px 40px;
+    font-family:"COMIC SANS MS";
+    font-size: 29px;
+    border: 10px solid #8B4513;
+    border-radius: 20px;
+    background-color: #c9773d;
+    color:#522200;
+}
+h1 {
+    margin: 40px 90px
+
+}
+
+html {
+    background-color: #F5DEB3;
+    
+}
+
+.zagolovki {
+    color: #522200;
+    font: italic 1.2em "Comic Sans MS" serif;
+    font-family:"COMIC SANS MS";
+}
+
+p {
+    margin: 10px 90px;
+    background-color: #c9773d;
+    border: 7px solid #8B4513;
+    border-radius: 10px;
+    font-size: 32px;
+    font-family:"COMIC SANS MS";
+    padding: 20px;
+}
+
+footer {
+    background-color: #363636;
+}
+
+.projects {
+    margin: 0px 30px;
+    border: 7px solid #8B4513;
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+
+.projects:hover{
+    transform: scale(1.1)
+}
+
+.img-block {
+    display: flex;
+    justify-content: center;
+}
+
+.facebook {
+    width: 70px;
+    height: 70px;
+    margin: 10px 10px;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+    font-family:"COMIC SANS MS";
+}
